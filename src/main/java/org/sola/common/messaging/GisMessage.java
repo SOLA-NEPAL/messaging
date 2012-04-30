@@ -50,6 +50,7 @@ public class GisMessage {
     private static final String CADASTRE_BOUNDARY = MSG_PREFIX + "_cadastre_boundary_";
     private static final String LEFT_PANEL = MSG_PREFIX + "_left_panel_";
     private static final String PARCLE_LIST=MSG_PREFIX + "_parcel_list_";
+    private static final String POINT_LIST=MSG_PREFIX + "_point_list_";
    // General Messages
     /** gisgnrl001 - Error starting the service */
     public static final String GENERAL_ERROR_STARTING_SERVICE = GENERAL + "001";
@@ -178,6 +179,8 @@ public class GisMessage {
     public static final String CADASTRE_CHANGE_POINTS_SHOW  = CADASTRE_CHANGE + "022";
     
     public static final String LIST_PARCELS= PARCLE_LIST + "023";
+    public static final String CADASTRE_SEGMENT_SHOW  = CADASTRE_CHANGE + "024";
+    public static final String CADASTRE_JOIN_POINT_SHOW  = POINT_LIST + "025";
 
     //Cadastre redefinition
     /**Coordinates entered are not valid.*/
