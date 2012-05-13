@@ -187,6 +187,8 @@ public class GisMessage {
     public static final String CADASTRE_TWO_POINT_SHOW  = CADASTRE_CHANGE + "026";
     public static final String CADASTRE_OFFSET_METHOD_SHOW  = CADASTRE_CHANGE + "027";
     public static final String CADASTRE_MULTI_OFFSET_METHOD  = CADASTRE_CHANGE + "028";
+    public static final String CADASTRE_CHANGE_DEFINE_POINTS  = CADASTRE_CHANGE + "029";
+    public static final String CADASTRE_CHANGE_MERGE_PARCEL  = CADASTRE_CHANGE + "030";
 
     //Cadastre redefinition
     /**Coordinates entered are not valid.*/
