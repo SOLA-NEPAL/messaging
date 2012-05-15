@@ -183,8 +183,12 @@ public class GisMessage {
     
     public static final String LIST_PARCELS= PARCLE_LIST + "023";
     public static final String CADASTRE_SEGMENT_SHOW  = CADASTRE_CHANGE + "024";
-    public static final String CADASTRE_JOIN_POINT_SHOW  = POINT_LIST + "025";
+    //public static final String CADASTRE_JOIN_POINT_SHOW  = POINT_LIST + "025";
     public static final String CADASTRE_TWO_POINT_SHOW  = CADASTRE_CHANGE + "026";
+    //public static final String CADASTRE_OFFSET_METHOD_SHOW  = CADASTRE_CHANGE + "027";
+    public static final String CADASTRE_MULTI_OFFSET_METHOD  = CADASTRE_CHANGE + "028";
+    public static final String CADASTRE_CHANGE_DEFINE_POINTS  = CADASTRE_CHANGE + "029";
+    public static final String CADASTRE_CHANGE_MERGE_PARCEL  = CADASTRE_CHANGE + "030";
 
     //Cadastre redefinition
     /**Coordinates entered are not valid.*/
