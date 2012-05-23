@@ -241,9 +241,9 @@ public class ClientMessage {
     
     /** cliapp010 - There is no selected user  */
     public static final String APPLICATION_NOSEL_USER = APPLICATION + "010";
-    /** cliapp011 - Application will be assigned to user "{0}"  */
+    /** cliapp011 - Applications will be assigned to the user "{0}"  */
     public static final String APPLICATION_ASSIGN = APPLICATION + "011";
-    /** cliapp012 - Application has been assigned  */
+    /** cliapp012 - Applications have been assigned  */
     public static final String APPLICATION_ASSIGNED = APPLICATION + "012";
     /** cliapp013 - Application will be unassigned from user "{0}"  */
     public static final String APPLICATION_UNASSIGN = APPLICATION + "013";
@@ -302,7 +302,9 @@ public class ClientMessage {
     public static final String APPLICATION_OPENING_FORM = APPLICATION + "038";
      /** cliapp039 - You've made some changes on the application. They will be saved before further action. Do you want to continue? */
     public static final String APPLICATION_SAVE_BEFORE_ACTION = APPLICATION + "039";
-   
+    /** cliapp040 - Assigning applications ... */
+    public static final String APPLICATION_ASSIGNING = APPLICATION + "040";
+    
     // Reports messages.
     /** clirpt001 - Report generation failed. Error details: {0} */
     public static final String REPORT_GENERATION_FAILED = REPORT + "001";

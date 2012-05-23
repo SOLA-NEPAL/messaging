@@ -73,7 +73,8 @@ public class ServiceMessage {
     public static final String GENERAL_UNEXPECTED_ERROR_DETAILS = GENERAL + "003";
     /** sergnrl004 - An unexpected error has occurred while performing {0}. Error details: {1} */
     public static final String GENERAL_UNEXPECTED_ERROR_DETAILS_ERR_NUM = GENERAL + "004";
-
+    /** sergnrl005 - You don't have enough right to call this method. */
+    public static final String GENERAL_NO_ACCESS_RIGHTS = GENERAL + "005";
     
     
     // Exception Messages
@@ -107,6 +108,11 @@ public class ServiceMessage {
     public static final String EJB_APPLICATION_APPLICATION_NOT_FOUND = EJB_APPLICATION + "002";
     /** serejbapplication003 - Only information service requests can be handled.*/
     public static final String EJB_APPLICATION_SERVICE_REQUEST_TYPE_INFORMATION_REQUIRED = EJB_APPLICATION + "003";
+    /** serejbapplication004 - Selected user doesn't belong to your department.*/
+    public static final String EJB_APPLICATION_USER_DOESNT_BELONG_TO_DEPARTMENT = EJB_APPLICATION + "004";
+    /** serejbapplication005 - Selected user doesn't belong to your office.*/
+    public static final String EJB_APPLICATION_USER_DOESNT_BELONG_TO_OFFICE = EJB_APPLICATION + "005";
+    
 
     //SourceEJB Messages
     /** serejbsource001 - Source does not exist. */
