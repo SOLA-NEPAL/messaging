@@ -257,4 +257,5 @@ public class GisMessage {
     /** gistest001 - Unit Test Message */
     public static final String TEST001 = TEST + "001";
     // </editor-fold>
+    
 }
