@@ -192,6 +192,7 @@ public class GisMessage {
     public static final String ZOOM_PREVIOUS  =MSG_PREFIX + "_zoom_previous_031";
     public static final String CADASTRE_CHANGE_EQUAL_AREA  = CADASTRE_CHANGE + "032";
     public static final String CADASTRE_CHANGE_SIDE_DIR_AREA  = CADASTRE_CHANGE + "033";
+    public static final String CADASTRE_CHANGE_DESELECT_PARCEL  = CADASTRE_CHANGE + "034";
 
     //Cadastre redefinition
     /**Coordinates entered are not valid.*/
