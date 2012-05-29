@@ -209,6 +209,9 @@ public class ClientMessage {
     public static final String CHECK_NOTNULL_DATETO = CHECK + "070"; 
    /** clichck071 - Registration date can't be greater than current date */
     public static final String CHECK_REGISTRATION_DATE = CHECK + "071"; 
+    /** clichck072 - Select user. */
+    public static final String CHECK_USER_NOT_SELECTED = CHECK + "072"; 
+    
     
     // Application messages
     /** cliapp001 - Select document to attach digital copy. */
@@ -304,6 +307,12 @@ public class ClientMessage {
     public static final String APPLICATION_SAVE_BEFORE_ACTION = APPLICATION + "039";
     /** cliapp040 - Assigning applications ... */
     public static final String APPLICATION_ASSIGNING = APPLICATION + "040";
+    /** cliapp041 - Application list is empty. */
+    public static final String APPLICATION_LIST_EMPTY = APPLICATION + "041";
+    /** cliapp042 - Transferring applications ... */
+    public static final String APPLICATION_TRANSFERRING = APPLICATION + "042";
+    /** cliapp043 - Applications have been transferred.  */
+    public static final String APPLICATION_TRANSFERRED = APPLICATION + "043";
     
     // Reports messages.
     /** clirpt001 - Report generation failed. Error details: {0} */
@@ -572,5 +581,6 @@ public class ClientMessage {
     public static final String PROGRESS_MSG_DOCUMENT_FORM_OPENING = PROGRESSMSG + "027";
     /** cliprgs028 - Saving document... */
     public static final String PROGRESS_MSG_DOCUMENT_SAVING = PROGRESSMSG + "028";
-    
+    /** cliprgs029 - Opening application transfer form... */
+    public static final String PROGRESS_MSG_OPEN_APP_TRANSFER = PROGRESSMSG + "029";
 }
