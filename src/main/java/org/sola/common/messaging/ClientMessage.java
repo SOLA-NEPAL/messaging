@@ -211,6 +211,8 @@ public class ClientMessage {
     public static final String CHECK_REGISTRATION_DATE = CHECK + "071"; 
     /** clichck072 - Select user. */
     public static final String CHECK_USER_NOT_SELECTED = CHECK + "072"; 
+    /** clichck073 - Select department. */
+    public static final String CHECK_USER_DEPARTMENT_NOT_NULL = CHECK + "073"; 
     
     
     // Application messages
