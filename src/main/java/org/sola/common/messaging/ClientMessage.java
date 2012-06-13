@@ -213,7 +213,10 @@ public class ClientMessage {
     public static final String CHECK_USER_NOT_SELECTED = CHECK + "072"; 
     /** clichck073 - Select department. */
     public static final String CHECK_USER_DEPARTMENT_NOT_NULL = CHECK + "073"; 
-    
+    /** clichck074 - Select district. */
+    public static final String CHECK_SELECT_DISTRICT = CHECK + "074";
+    /** clichck075 - Select office. */
+    public static final String CHECK_SELECT_OFFICE = CHECK + "075";
     
     // Application messages
     /** cliapp001 - Select document to attach digital copy. */
@@ -524,6 +527,14 @@ public class ClientMessage {
     public static final String ADMIN_BR_REMOVE_VALIDATIONS = ADMIN + "022";
     /** cliadmin023 - Reference data object \"{0}\" has been saved. */
     public static final String ADMIN_REFDATA_SAVED = ADMIN + "023";
+    /** cliadmin024 - \"{0}\" office has been saved. */
+    public static final String ADMIN_OFFICE_SAVED = ADMIN + "024";
+    /** cliadmin025 - Are you sure you want to remove \"{0}\" office? */
+    public static final String ADMIN_CONFIRM_OFFICE_REMOVAL = ADMIN + "025";
+    /** cliadmin026 - Are you sure you want to remove \"{0}\" department? */
+    public static final String ADMIN_CONFIRM_DEPARTMENT_REMOVAL = ADMIN + "026";
+    /** cliadmin027 - \"{0}\" department has been saved. */
+    public static final String ADMIN_DEPARTMENT_SAVED = ADMIN + "027";
     
     // Progress bar messages
     
