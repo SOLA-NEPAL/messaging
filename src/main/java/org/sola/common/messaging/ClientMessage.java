@@ -585,4 +585,6 @@ public class ClientMessage {
     public static final String PROGRESS_MSG_DOCUMENT_SAVING = PROGRESSMSG + "028";
     /** cliprgs029 - Opening application transfer form... */
     public static final String PROGRESS_MSG_OPEN_APP_TRANSFER = PROGRESSMSG + "029";
+    /** cliprgs030- Opening Ownership Change form... */
+    public static final String PROGRESS_MSG_OPEN_OWNER = PROGRESSMSG + "030";
 }
