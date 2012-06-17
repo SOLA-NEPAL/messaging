@@ -194,6 +194,7 @@ public class GisMessage {
     public static final String CADASTRE_CHANGE_SIDE_DIR_AREA  = CADASTRE_CHANGE + "033";
     public static final String CADASTRE_CHANGE_DESELECT_PARCEL  = CADASTRE_CHANGE + "034";
     public static final String CADASTRE_CHANGE_IMPORT_SHAPE  = CADASTRE_CHANGE + "035";
+    public static final String CADASTRE_SEARCH_PARCEL=CADASTRE_CHANGE + "036";
 
     //Cadastre redefinition
     /**Coordinates entered are not valid.*/
