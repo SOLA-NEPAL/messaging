@@ -92,6 +92,8 @@ public class ServiceMessage {
     public static final String EXCEPTION_INSUFFICIENT_RIGHTS = EXCEPTION + "006";
     /** serexcp007 - Entity doesn't belong to the called EJB. */
     public static final String EXCEPTION_ENTITY_PACKAGE_VIOLATION = EXCEPTION + "007";
+    /** serexcp008 - The object you are trying to create or change doesn't belong to your office. */
+    public static final String EXCEPTION_OBJECT_OUT_OF_OFFICE = EXCEPTION + "008";
     
     // Business Rule Messages
     /** serrule001 - Business rule {0} does not exist.*/
