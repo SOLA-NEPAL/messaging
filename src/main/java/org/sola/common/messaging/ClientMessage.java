@@ -50,6 +50,11 @@ public class ClientMessage {
     private static final String ADMIN = MSG_PREFIX + "admin";
     private static final String BR = MSG_PREFIX + "br";
     private static final String PROGRESSMSG = MSG_PREFIX + "prgs";
+    //added by Kumar
+    private static final String MOTH = MSG_PREFIX + "moth";
+    private static final String LOC = MSG_PREFIX + "loc";
+    
+    
     
     // <editor-fold defaultstate="collapsed" desc="Test Messages">  
     /** clitest001 - Unit Test Message */
@@ -598,4 +603,31 @@ public class ClientMessage {
     public static final String PROGRESS_MSG_OPEN_APP_TRANSFER = PROGRESSMSG + "029";
     /** cliprgs030- Opening Ownership Change form... */
     public static final String PROGRESS_MSG_OPEN_OWNER = PROGRESSMSG + "030";
+    
+    
+    //<editor-fold defaultstate="collapsed" desc="By Kumar">
+    //***************************************************************************************************
+    // Moth messages
+    /** climoth001 - Moth has been saved. */
+    public static final String MOTH_SAVED = MOTH + "001";
+    /** cliloc002 - Loc has been saved. */
+    public static final String LOC_SAVED = LOC + "002";
+    //***************************************************************************************************
+    //</editor-fold>
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 }
