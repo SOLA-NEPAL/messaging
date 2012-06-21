@@ -540,7 +540,14 @@ public class ClientMessage {
     public static final String ADMIN_CONFIRM_DEPARTMENT_REMOVAL = ADMIN + "026";
     /** cliadmin027 - \"{0}\" department has been saved. */
     public static final String ADMIN_DEPARTMENT_SAVED = ADMIN + "027";
-    
+     /** cliadmin028 - Are you sure you want to remove \"{0}\" department? */
+    public static final String ADMIN_CONFIRM_VDC_REMOVAL = ADMIN + "028";
+    /** cliadmin029 - \"{0}\" department has been saved. */
+    public static final String ADMIN_VDC_SAVED = ADMIN + "029";
+     /** cliadmin030 - Are you sure you want to remove \"{0}\" department? */
+     public static final String ADMIN_CONFIRM_MAPSHEET_REMOVAL = ADMIN + "030";
+    /** cliadmin031 - \"{0}\" department has been saved. */
+    public static final String ADMIN_MAPSHEET_SAVED = ADMIN + "031";
     // Progress bar messages
     
     /** cliprgs001 - Opening application form... */
