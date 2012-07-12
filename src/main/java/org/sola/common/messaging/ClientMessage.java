@@ -548,6 +548,12 @@ public class ClientMessage {
      public static final String ADMIN_CONFIRM_MAPSHEET_REMOVAL = ADMIN + "030";
     /** cliadmin031 - \"{0}\" department has been saved. */
     public static final String ADMIN_MAPSHEET_SAVED = ADMIN + "031";
+    /** cliadmin032 - Enter map sheet number. */
+    public static final String ADMIN_MAPSHEET_NUMBER_MISSING = ADMIN + "032";
+    /** cliadmin033 - Select sheet type. */
+    public static final String ADMIN_SELECT_SHEET_TYPE = ADMIN + "033";
+    
+    
     // Progress bar messages
     
     /** cliprgs001 - Opening application form... */
