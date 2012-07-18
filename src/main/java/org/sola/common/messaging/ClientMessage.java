@@ -399,7 +399,7 @@ public class ClientMessage {
     public static final String ERR_BR_VIOLATION = GENERAL_ERRORS + "004";
     
     // General confirms
-    /** cliconfirm001 - Are you sure you want to delete record? All data will be lost */
+    /** cliconfirm001 - Are you sure you want to delete record? */
     public static final String CONFIRM_DELETE_RECORD = GENERAL_CONFIRM + "001";
     
      // Help messages
