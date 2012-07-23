@@ -625,6 +625,16 @@ public class ClientMessage {
     public static final String MOTH_SAVED = MOTH + "001";
     /** cliloc002 - Loc has been saved. */
     public static final String LOC_SAVED = LOC + "002";
+    /** climoth003 - Moth */
+    public static final String MOTH_TYPE_MOTH = MOTH + "003";
+    /** climoth004 - Luj */
+    public static final String MOTH_TYPE_LUJ = MOTH + "004";
+    /** cliloc005 - Land ownership certificate not found. */
+    public static final String LOC_NOT_FOUND = LOC + "005";
+    /** cliloc006 - Land ownership certificate not found. Do you want to create it? */
+    public static final String LOC_NOT_FOUND_CREATE_NEW = LOC + "006";
+    /** cliloc007 - Can not create Land ownership certificate. */
+    public static final String LOC_CREATE_FAILED = LOC + "007";
     //***************************************************************************************************
     //</editor-fold>
    
