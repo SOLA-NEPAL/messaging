@@ -45,6 +45,7 @@ public class ServiceMessage {
     private static final String EJB_SOURCE = MSG_PREFIX + "ejbsource";
     private static final String EJB_TRANSACTION = MSG_PREFIX + "ejbtransaction";
     private static final String ADMIN_WS = MSG_PREFIX + "adminservice";
+    private static final String EJB_ADMINISTRATIVE = MSG_PREFIX + "ejbadministrative";
     
     // <editor-fold defaultstate="collapsed" desc="Test Messages">  
     /** sertest001 - Unit Test Message */
@@ -129,4 +130,10 @@ public class ServiceMessage {
     // Admin Web-service
     /** seradminservice001 - Username "{0}" already exists. */
     public static final String ADMIN_WS_USER_EXISTS = ADMIN_WS + "001";
+    
+    //AdministrativeEJB Messages
+    /** serejbadministrative001 - Land ownership certificate, not synchronized. */
+    public static final String EJB_ADMINISTRATIVE_LOC_CURRUPTED = EJB_ADMINISTRATIVE + "001";
+    /** serejbadministrative002 - Property modification is not allowed. */
+    public static final String EJB_ADMINISTRATIVE_BAUNIT_MODIFICATION_NOT_ALLOWED = EJB_ADMINISTRATIVE + "002";
 }
