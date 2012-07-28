@@ -618,6 +618,8 @@ public class ClientMessage {
     public static final String PROGRESS_MSG_OPEN_APP_TRANSFER = PROGRESSMSG + "029";
     /** cliprgs030- Opening Ownership Change form... */
     public static final String PROGRESS_MSG_OPEN_OWNER = PROGRESSMSG + "030";
+    /** cliprgs031 - Reverting changes for the ownership... */
+    public static final String PROGRESS_MSG_REVERT_LOC = PROGRESSMSG + "031";
     
     
     //<editor-fold defaultstate="collapsed" desc="By Kumar">
