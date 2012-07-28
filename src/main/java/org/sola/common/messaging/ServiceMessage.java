@@ -136,4 +136,8 @@ public class ServiceMessage {
     public static final String EJB_ADMINISTRATIVE_LOC_CURRUPTED = EJB_ADMINISTRATIVE + "001";
     /** serejbadministrative002 - Property modification is not allowed. */
     public static final String EJB_ADMINISTRATIVE_BAUNIT_MODIFICATION_NOT_ALLOWED = EJB_ADMINISTRATIVE + "002";
+    /** serejbadministrative003 - One of the ownership rights was already modified 
+     * through another application service. First, you need to approve this application.
+     */
+    public static final String EJB_ADMINISTRATIVE_RRR_MODIFIED_BY_ANOTHER_SERVICE = EJB_ADMINISTRATIVE + "003";
 }

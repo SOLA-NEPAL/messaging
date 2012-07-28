@@ -384,6 +384,8 @@ public class ClientMessage {
     public static final String BAUNIT_SAVED = BAUNIT + "014";
     /** clibaunit015 - Failed to save property. */
     public static final String BAUNIT_SAVE_FAILED = BAUNIT + "015";
+    /** clibaunit016 - Current state was not found for the LOC. */
+    public static final String BAUNIT_LOC_CURRENT_STATE_NOT_FOUND = BAUNIT + "016";
     
     // General error messages
     /** clierrs001 - Can't cerate a new file. {0} */
