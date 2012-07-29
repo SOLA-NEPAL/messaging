@@ -53,7 +53,7 @@ public class ClientMessage {
     //added by Kumar
     private static final String MOTH = MSG_PREFIX + "moth";
     private static final String LOC = MSG_PREFIX + "loc";
-    
+    private static final String AREA_TYPE = MSG_PREFIX + "area";
     
     
     // <editor-fold defaultstate="collapsed" desc="Test Messages">  
@@ -638,6 +638,21 @@ public class ClientMessage {
     //***************************************************************************************************
     //</editor-fold>
    
+    
+    //<editor-fold defaultstate="collapsed" desc="dinesh">
+    /** cliarea001 - area type square meter */
+    public static final String AREA_TYPE_SQMT = AREA_TYPE +"001";
+    /** cliarea002 - area type square feet */
+    public static final String AREA_TYPE_SQFT = AREA_TYPE +"002";
+    /** cliarea003 - area type hectare */
+    public static final String AREA_TYPE_HECTARE = AREA_TYPE +"003";
+    /** cliarea004 - area type Ropani-Ana-Paisa-Dam */
+    public static final String AREA_TYPE_ROPANI_ANA_PAISA_DAM = AREA_TYPE +"004";
+    /** cliarea005 - area type Bigha-Katha-Dhur */
+    public static final String AREA_TYPE_BIGHA_KATHA_DHUR = AREA_TYPE +"005";
+    //</editor-fold>
+    
+            
     
     
     
