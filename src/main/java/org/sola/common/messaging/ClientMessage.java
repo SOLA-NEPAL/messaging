@@ -386,6 +386,8 @@ public class ClientMessage {
     public static final String BAUNIT_SAVE_FAILED = BAUNIT + "015";
     /** clibaunit016 - Current state was not found for the LOC. */
     public static final String BAUNIT_LOC_CURRENT_STATE_NOT_FOUND = BAUNIT + "016";
+    /** clibaunit017 - Property already has pending ownership right. */
+    public static final String BAUNIT_ALREADY_HAS_PENDING_OWNERSHIP = BAUNIT + "017";
     
     // General error messages
     /** clierrs001 - Can't cerate a new file. {0} */
@@ -620,7 +622,8 @@ public class ClientMessage {
     public static final String PROGRESS_MSG_OPEN_OWNER = PROGRESSMSG + "030";
     /** cliprgs031 - Reverting changes for the ownership... */
     public static final String PROGRESS_MSG_REVERT_LOC = PROGRESSMSG + "031";
-    
+    /** cliprgs032 - Getting property object... */
+    public static final String PROGRESS_MSG_GETTING_PROPERTY_OBJECT = PROGRESSMSG + "032";
     
     //<editor-fold defaultstate="collapsed" desc="By Kumar">
     //***************************************************************************************************
