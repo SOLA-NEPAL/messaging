@@ -196,6 +196,7 @@ public class GisMessage {
     public static final String CADASTRE_CHANGE_IMPORT_SHAPE  = CADASTRE_CHANGE + "035";
     public static final String CADASTRE_SEARCH_PARCEL=CADASTRE_CHANGE + "036";
     public static final String ZOOM_TO_SCALE  =MSG_PREFIX + "_zoom_to_scale_037";
+    public static final String CADASTRE_DATASET_CHOOSE  =MSG_PREFIX + "_dataset_038";
 
     //Cadastre redefinition
     /**Coordinates entered are not valid.*/
