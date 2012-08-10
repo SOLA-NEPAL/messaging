@@ -222,6 +222,12 @@ public class ClientMessage {
     public static final String CHECK_SELECT_DISTRICT = CHECK + "074";
     /** clichck075 - Select office. */
     public static final String CHECK_SELECT_OFFICE = CHECK + "075";
+    /** clichck076 - Select right type. */
+    public static final String CHECK_SELECT_RIGHT_TYPE = CHECK + "076";
+    /** clichck077 - Select owner type. */
+    public static final String CHECK_SELECT_OWNER_TYPE = CHECK + "077";
+    /** clichck078 - Select share type. */
+    public static final String CHECK_SELECT_SHARE_TYPE = CHECK + "078";
     
     // Application messages
     /** cliapp001 - Select document to attach digital copy. */
