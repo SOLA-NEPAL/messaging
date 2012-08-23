@@ -886,6 +886,8 @@ public class ClientMessage {
      * cliadmin033 - Select sheet type.
      */
     public static final String ADMIN_SELECT_SHEET_TYPE = ADMIN + "033";
+    
+    
     // Progress bar messages
     /**
      * cliprgs001 - Opening application form...
@@ -1015,6 +1017,10 @@ public class ClientMessage {
      * cliprgs032 - Getting property object...
      */
     public static final String PROGRESS_MSG_GETTING_PROPERTY_OBJECT = PROGRESSMSG + "032";
+    
+    /* cliprgs033 - Searching parcels...
+     */
+    public static final String PROGRESS_MSG_PARCEL_SEARCHING = PROGRESSMSG + "033";
     //<editor-fold defaultstate="collapsed" desc="By Kumar">
     //***************************************************************************************************
     // Moth messages
