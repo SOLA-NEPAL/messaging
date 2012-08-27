@@ -310,13 +310,18 @@ public class ClientMessage {
      * clichck075 - Select office.
      */
     public static final String CHECK_SELECT_OFFICE = CHECK + "075";
-    /** clichck076 - Select right type. */
+    /**
+     * clichck076 - Select right type.
+     */
     public static final String CHECK_SELECT_RIGHT_TYPE = CHECK + "076";
-    /** clichck077 - Select owner type. */
+    /**
+     * clichck077 - Select owner type.
+     */
     public static final String CHECK_SELECT_OWNER_TYPE = CHECK + "077";
-    /** clichck078 - Select share type. */
+    /**
+     * clichck078 - Select share type.
+     */
     public static final String CHECK_SELECT_SHARE_TYPE = CHECK + "078";
-    
     // Application messages
     /**
      * cliapp001 - Select document to attach digital copy.
@@ -677,7 +682,6 @@ public class ClientMessage {
      * cliparty009 - Person not found.
      */
     public static final String PARTY_NOT_FOUND = PARTY + "009";
-    
     // Source messages
     /**
      * clisource001 - This action will detach document from the transaction. Are
@@ -891,8 +895,6 @@ public class ClientMessage {
      * cliadmin033 - Select sheet type.
      */
     public static final String ADMIN_SELECT_SHEET_TYPE = ADMIN + "033";
-    
-    
     // Progress bar messages
     /**
      * cliprgs001 - Opening application form...
@@ -1022,12 +1024,10 @@ public class ClientMessage {
      * cliprgs032 - Getting property object...
      */
     public static final String PROGRESS_MSG_GETTING_PROPERTY_OBJECT = PROGRESSMSG + "032";
-    
     /**
      * cliprgs033 - Getting person...
      */
     public static final String PROGRESS_MSG_PERSON_GETTING = PROGRESSMSG + "033";
-    
     // Moth messages
     /**
      * climoth001 - Moth has been saved.
@@ -1058,7 +1058,6 @@ public class ClientMessage {
      * cliloc007 - Can not create Land ownership certificate.
      */
     public static final String LOC_CREATE_FAILED = LOC + "007";
-    
     /**
      * cliarea001 - area type square meter
      */
