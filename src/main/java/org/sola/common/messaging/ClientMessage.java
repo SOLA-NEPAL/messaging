@@ -254,6 +254,7 @@ public class ClientMessage {
     public static final String CHECK_BEANNOTNULL_BRVALTARGETTYPE = CHECK + "059";
     public static final String CHECK_GENERICNULL_OBJECT = CHECK + "060";
     public static final String CHECK_GENERICDUPL_OBJECT = CHECK + "061";
+    public static final String CHECK_NOTNULL_REFERENCELANR = CHECK + "079";
     /**
      * clichck062 - Number of services should be greater than 0.
      */
