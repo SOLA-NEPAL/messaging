@@ -672,7 +672,12 @@ public class ClientMessage {
     /**
      * cliparty008 - Person has been created.
      */
-    public static final String PARTY_CREATED = PARTY + "003";
+    public static final String PARTY_CREATED = PARTY + "008";
+    /**
+     * cliparty009 - Person not found.
+     */
+    public static final String PARTY_NOT_FOUND = PARTY + "009";
+    
     // Source messages
     /**
      * clisource001 - This action will detach document from the transaction. Are
@@ -1018,11 +1023,11 @@ public class ClientMessage {
      */
     public static final String PROGRESS_MSG_GETTING_PROPERTY_OBJECT = PROGRESSMSG + "032";
     
-    /* cliprgs033 - Searching parcels...
+    /**
+     * cliprgs033 - Getting person...
      */
-    public static final String PROGRESS_MSG_PARCEL_SEARCHING = PROGRESSMSG + "033";
-    //<editor-fold defaultstate="collapsed" desc="By Kumar">
-    //***************************************************************************************************
+    public static final String PROGRESS_MSG_PERSON_GETTING = PROGRESSMSG + "033";
+    
     // Moth messages
     /**
      * climoth001 - Moth has been saved.
@@ -1053,9 +1058,7 @@ public class ClientMessage {
      * cliloc007 - Can not create Land ownership certificate.
      */
     public static final String LOC_CREATE_FAILED = LOC + "007";
-    //***************************************************************************************************
-    //</editor-fold>
-    //<editor-fold defaultstate="collapsed" desc="dinesh">
+    
     /**
      * cliarea001 - area type square meter
      */
@@ -1076,5 +1079,4 @@ public class ClientMessage {
      * cliarea005 - area type Bigha-Katha-Dhur
      */
     public static final String AREA_TYPE_BIGHA_KATHA_DHUR = AREA_TYPE + "005";
-    //</editor-fold>
 }
