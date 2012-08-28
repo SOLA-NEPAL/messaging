@@ -254,6 +254,7 @@ public class ClientMessage {
     public static final String CHECK_BEANNOTNULL_BRVALTARGETTYPE = CHECK + "059";
     public static final String CHECK_GENERICNULL_OBJECT = CHECK + "060";
     public static final String CHECK_GENERICDUPL_OBJECT = CHECK + "061";
+    public static final String CHECK_NOTNULL_REFERENCELANR = CHECK + "079";
     /**
      * clichck062 - Number of services should be greater than 0.
      */
@@ -1028,7 +1029,6 @@ public class ClientMessage {
      * cliprgs033 - Getting person...
      */
     public static final String PROGRESS_MSG_PERSON_GETTING = PROGRESSMSG + "033";
-    
     /* cliprgs034 - Searching parcels...
      */
     public static final String PROGRESS_MSG_PARCEL_SEARCHING = PROGRESSMSG + "035";
