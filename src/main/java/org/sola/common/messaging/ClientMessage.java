@@ -253,8 +253,7 @@ public class ClientMessage {
     public static final String CHECK_BEANNOTNULL_BRSEVTYPE = CHECK + "058";
     public static final String CHECK_BEANNOTNULL_BRVALTARGETTYPE = CHECK + "059";
     public static final String CHECK_GENERICNULL_OBJECT = CHECK + "060";
-    public static final String CHECK_GENERICDUPL_OBJECT = CHECK + "061";
-    public static final String CHECK_NOTNULL_REFERENCELANR = CHECK + "079";
+    public static final String CHECK_GENERICDUPL_OBJECT = CHECK + "061";   
     /**
      * clichck062 - Number of services should be greater than 0.
      */
@@ -323,6 +322,10 @@ public class ClientMessage {
      * clichck078 - Select share type.
      */
     public static final String CHECK_SELECT_SHARE_TYPE = CHECK + "078";
+    /**
+     * clichck078 - Check Reference No
+     */
+     public static final String CHECK_NOTNULL_REFERENCELANR = CHECK + "079";
     // Application messages
     /**
      * cliapp001 - Select document to attach digital copy.
@@ -1031,7 +1034,7 @@ public class ClientMessage {
     public static final String PROGRESS_MSG_PERSON_GETTING = PROGRESSMSG + "033";
     /* cliprgs034 - Searching parcels...
      */
-    public static final String PROGRESS_MSG_PARCEL_SEARCHING = PROGRESSMSG + "035";
+    public static final String PROGRESS_MSG_PARCEL_SEARCHING = PROGRESSMSG + "034";
     // Moth messages
     /**
      * climoth001 - Moth has been saved.
