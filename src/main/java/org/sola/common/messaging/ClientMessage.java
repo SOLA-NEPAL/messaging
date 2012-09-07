@@ -1045,6 +1045,11 @@ public class ClientMessage {
     /* cliprgs034 - Searching parcels...
      */
     public static final String PROGRESS_MSG_PARCEL_SEARCHING = PROGRESSMSG + "034";
+    /**
+     * cliprgs035 - Getting parcel...
+     */
+    public static final String PROGRESS_MSG_GETTING_PARCEL = PROGRESSMSG + "035";
+    
     // Moth messages
     /**
      * climoth001 - Moth has been saved.
