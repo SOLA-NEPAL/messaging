@@ -906,6 +906,16 @@ public class ClientMessage {
      * cliadmin033 - Select sheet type.
      */
     public static final String ADMIN_SELECT_SHEET_TYPE = ADMIN + "033";
+    
+    /**
+     * cliadmin034 - \"{0}\" fiscalYear has been saved.
+     */
+    public static final String ADMIN_FISCAL_YEAR_SAVED = ADMIN + "034";
+    
+    /**
+     * cliadmin035 - Are you sure you want to remove \"{0}\" Fiscal Year?
+     */
+    public static final String ADMIN_CONFIRM_FISCAL_YEAR_REMOVAL = ADMIN + "035";
     // Progress bar messages
     /**
      * cliprgs001 - Opening application form...
