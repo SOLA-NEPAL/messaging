@@ -136,8 +136,19 @@ public class ServiceMessage {
     public static final String EJB_ADMINISTRATIVE_LOC_CURRUPTED = EJB_ADMINISTRATIVE + "001";
     /** serejbadministrative002 - Property modification is not allowed. */
     public static final String EJB_ADMINISTRATIVE_BAUNIT_MODIFICATION_NOT_ALLOWED = EJB_ADMINISTRATIVE + "002";
-    /** serejbadministrative003 - One of the ownership rights was already modified 
+    /** 
+     * serejbadministrative003 - One of the ownership rights was already modified 
      * through another application service. First, you need to approve this application.
      */
     public static final String EJB_ADMINISTRATIVE_RRR_MODIFIED_BY_ANOTHER_SERVICE = EJB_ADMINISTRATIVE + "003";
+    /** 
+     * serejbadministrative004 - There are rights with pending status on the prior property {0}. 
+     * You need to remove or approve them first.
+     */
+    public static final String EJB_ADMINISTRATIVE_PENGIN_RRR_EXISTS = EJB_ADMINISTRATIVE + "004";
+    /** 
+     * serejbadministrative005 - Property object "{0}" has pending status and can not be terminated. 
+     * You need to approve these changes first.
+     */
+    public static final String EJB_ADMINISTRATIVE_PENGIN_BA_UNIT_STATUS = EJB_ADMINISTRATIVE + "005";
 }

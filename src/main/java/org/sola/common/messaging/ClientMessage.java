@@ -51,16 +51,17 @@ public class ClientMessage {
     private static final String ADMIN = MSG_PREFIX + "admin";
     private static final String BR = MSG_PREFIX + "br";
     private static final String PROGRESSMSG = MSG_PREFIX + "prgs";
-    //added by Kumar
     private static final String MOTH = MSG_PREFIX + "moth";
     private static final String LOC = MSG_PREFIX + "loc";
     private static final String AREA_TYPE = MSG_PREFIX + "area";
-    // <editor-fold defaultstate="collapsed" desc="Test Messages">  
+    private static final String ADDRESS = MSG_PREFIX + "adr";
+    private static final String CADASTRE = MSG_PREFIX + "cadstr";
+    
     /**
      * clitest001 - Unit Test Message
      */
     public static final String TEST001 = TEST + "001";
-    // </editor-fold>
+
     // General Messages
     /**
      * clignrl001 - An unexpected error has occurred. Error details: {0}
@@ -319,13 +320,19 @@ public class ClientMessage {
      */
     public static final String CHECK_SELECT_OWNER_TYPE = CHECK + "077";
     /**
-     * clichck078 - Select share type.
+     * clichck078 - Select ownership type.
      */
     public static final String CHECK_SELECT_SHARE_TYPE = CHECK + "078";
     /**
      * clichck078 - Check Reference No
      */
      public static final String CHECK_NOTNULL_REFERENCELANR = CHECK + "079";
+     /**
+     * clichck080 - Enter registration number.
+     */
+    public static final String CHECK_REGISTRATION_NUMBER = CHECK + "080";
+    
+    
     // Application messages
     /**
      * cliapp001 - Select document to attach digital copy.
@@ -1090,4 +1097,19 @@ public class ClientMessage {
      * cliarea005 - area type Bigha-Katha-Dhur
      */
     public static final String AREA_TYPE_BIGHA_KATHA_DHUR = AREA_TYPE + "005";
+    
+    
+    // Address messages
+    
+    /** cliadr001 - Select VDC. */
+    public static final String ADDRESS_VDC_IS_NULL = ADDRESS + "001";
+    /** cliadr002 - Enter Ward number. */
+    public static final String ADDRESS_WARD_IS_NULL = ADDRESS + "002";
+    
+    // Cadastre
+    
+    /** clicadstr001 - Select map sheet. */
+    public static final String CADASTRE_MAP_SHEET_IS_NULL = CADASTRE + "001";
+    /** clicadstr002 - Enter parcel number. */
+    public static final String CADASTRE_PARCEL_NUMBER_IS_NULL = CADASTRE + "002";
 }
