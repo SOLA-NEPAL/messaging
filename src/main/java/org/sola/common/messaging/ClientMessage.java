@@ -1057,6 +1057,9 @@ public class ClientMessage {
      */
     public static final String PROGRESS_MSG_GETTING_PARCEL = PROGRESSMSG + "035";
     
+    /** cliprgs036 - Getting properties... */
+    public static final String PROGRESS_MSG_GETTING_PROPERTIES = PROGRESSMSG + "036";
+    
     // Moth messages
     /**
      * climoth001 - Moth has been saved.
