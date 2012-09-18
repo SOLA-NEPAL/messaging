@@ -56,12 +56,10 @@ public class ClientMessage {
     private static final String AREA_TYPE = MSG_PREFIX + "area";
     private static final String ADDRESS = MSG_PREFIX + "adr";
     private static final String CADASTRE = MSG_PREFIX + "cadstr";
-    
     /**
      * clitest001 - Unit Test Message
      */
     public static final String TEST001 = TEST + "001";
-
     // General Messages
     /**
      * clignrl001 - An unexpected error has occurred. Error details: {0}
@@ -254,7 +252,7 @@ public class ClientMessage {
     public static final String CHECK_BEANNOTNULL_BRSEVTYPE = CHECK + "058";
     public static final String CHECK_BEANNOTNULL_BRVALTARGETTYPE = CHECK + "059";
     public static final String CHECK_GENERICNULL_OBJECT = CHECK + "060";
-    public static final String CHECK_GENERICDUPL_OBJECT = CHECK + "061";   
+    public static final String CHECK_GENERICDUPL_OBJECT = CHECK + "061";
     /**
      * clichck062 - Number of services should be greater than 0.
      */
@@ -326,13 +324,43 @@ public class ClientMessage {
     /**
      * clichck078 - Check Reference No
      */
-     public static final String CHECK_NOTNULL_REFERENCELANR = CHECK + "079";
-     /**
+    public static final String CHECK_NOTNULL_REFERENCELANR = CHECK + "079";
+    /**
      * clichck080 - Enter registration number.
      */
     public static final String CHECK_REGISTRATION_NUMBER = CHECK + "080";
-    
-    
+    /**
+     * clichck081 - Enter Serial No.
+     */
+    public static final String CHECK_SERIAL_NO = CHECK + "081";
+    /**
+     * clichck082 - Enter Bundle No.
+     */
+    public static final String CHECK_BUNDLE_NO = CHECK + "082";
+    /**
+     * clichck083 - Enter Bundle Page.
+     */
+    public static final String CHECK_BUNDLE_PAGE = CHECK + "083";
+    /**
+     * clichck084 - Select Restriction Reason.
+     */
+    public static final String CHECK_RESTRICTION_REASON = CHECK + "084";
+    /**
+     * clichck085 - Enter Restriction office.
+     */
+    public static final String CHECK_RESTRICTION_OFFICE = CHECK + "085";
+    /**
+     * clichck086 - Enter Restriction office Address.
+     */
+    public static final String CHECK_RESTRICTION_OFFICE_ADDRESS = CHECK + "086";
+    /**
+     * clichck087 - Select Restriction Release Reason.
+     */
+    public static final String CHECK_RESTRICTION_RELEASE_REASONS = CHECK + "087";
+    /**
+     * clichck088 - Enter Restriction release office.
+     */
+    public static final String CHECK_RESTRICTION_RELEASE_OFFICE = CHECK + "088";
     // Application messages
     /**
      * cliapp001 - Select document to attach digital copy.
@@ -906,12 +934,10 @@ public class ClientMessage {
      * cliadmin033 - Select sheet type.
      */
     public static final String ADMIN_SELECT_SHEET_TYPE = ADMIN + "033";
-    
     /**
      * cliadmin034 - \"{0}\" fiscalYear has been saved.
      */
     public static final String ADMIN_FISCAL_YEAR_SAVED = ADMIN + "034";
-    
     /**
      * cliadmin035 - Are you sure you want to remove \"{0}\" Fiscal Year?
      */
@@ -1056,13 +1082,14 @@ public class ClientMessage {
      * cliprgs035 - Getting parcel...
      */
     public static final String PROGRESS_MSG_GETTING_PARCEL = PROGRESSMSG + "035";
-    
-    /** cliprgs036 - Getting properties... */
+    /**
+     * cliprgs036 - Getting properties...
+     */
     public static final String PROGRESS_MSG_GETTING_PROPERTIES = PROGRESSMSG + "036";
-    
-    /** cliprgs037 - Opening document form... */
+    /**
+     * cliprgs037 - Opening document form...
+     */
     public static final String PROGRESS_MSG_OPEN_SOURCE_FORM = PROGRESSMSG + "037";
-    
     // Moth messages
     /**
      * climoth001 - Moth has been saved.
@@ -1113,19 +1140,22 @@ public class ClientMessage {
      * cliarea005 - area type Bigha-Katha-Dhur
      */
     public static final String AREA_TYPE_BIGHA_KATHA_DHUR = AREA_TYPE + "005";
-    
-    
     // Address messages
-    
-    /** cliadr001 - Select VDC. */
+    /**
+     * cliadr001 - Select VDC.
+     */
     public static final String ADDRESS_VDC_IS_NULL = ADDRESS + "001";
-    /** cliadr002 - Enter Ward number. */
+    /**
+     * cliadr002 - Enter Ward number.
+     */
     public static final String ADDRESS_WARD_IS_NULL = ADDRESS + "002";
-    
     // Cadastre
-    
-    /** clicadstr001 - Select map sheet. */
+    /**
+     * clicadstr001 - Select map sheet.
+     */
     public static final String CADASTRE_MAP_SHEET_IS_NULL = CADASTRE + "001";
-    /** clicadstr002 - Enter parcel number. */
+    /**
+     * clicadstr002 - Enter parcel number.
+     */
     public static final String CADASTRE_PARCEL_NUMBER_IS_NULL = CADASTRE + "002";
 }
