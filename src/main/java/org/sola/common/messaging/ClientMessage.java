@@ -361,6 +361,10 @@ public class ClientMessage {
      * clichck088 - Enter Restriction release office.
      */
     public static final String CHECK_RESTRICTION_RELEASE_OFFICE = CHECK + "088";
+    /**
+     * clichck089 - Select Tenancy type.
+     */
+    public static final String CHECK_TENANCY_TYPE = CHECK + "089";
     // Application messages
     /**
      * cliapp001 - Select document to attach digital copy.
