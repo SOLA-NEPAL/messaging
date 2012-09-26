@@ -724,7 +724,11 @@ public class ClientMessage {
     /**
      * cliparty009 - Person not found.
      */
-    public static final String PARTY_NOT_FOUND = PARTY + "009";
+    public static final String PARTY_NOT_FOUND = PARTY + "009";    
+    /**
+     * cliparty010 - Invalid Parent For this Child, Parent is it self child
+     */
+    public static final String CHILD_PARTY_PARENT = PARTY + "010";
     // Source messages
     /**
      * clisource001 - This action will detach document from the transaction. Are
