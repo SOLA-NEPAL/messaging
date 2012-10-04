@@ -1129,6 +1129,26 @@ public class ClientMessage {
      */
     public static final String LOC_CREATE_FAILED = LOC + "007";
     /**
+     * cliloc008 - land ownership certificate created.
+     */
+    public static final String LOC_CREATED = LOC + "008";
+    /**
+     * cliloc009 - land ownership certificate page number modified.
+     */
+    public static final String LOC_PAGE_NO_MODIFIED = LOC + "009";
+    /**
+     * cliloc010 - land ownership certificate exist.
+     */
+    public static final String LOC_EXIST = LOC + "010";
+    /**
+     * cliloc011 - LOC Removed.
+     */
+    public static final String LOC_REMOVED = LOC + "011";
+    /**
+     * climoth012 - MOTH removed.
+     */
+    public static final String MOTH_REMOVED = MOTH + "012";
+    /**
      * cliarea001 - area type square meter
      */
     public static final String AREA_TYPE_SQMT = AREA_TYPE + "001";
