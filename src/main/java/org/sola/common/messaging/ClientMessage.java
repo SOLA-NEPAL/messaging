@@ -365,6 +365,12 @@ public class ClientMessage {
      * clichck089 - Select Tenancy type.
      */
     public static final String CHECK_TENANCY_TYPE = CHECK + "089";
+    /** clichck090 - Select VDC */
+    public static final String CHECK_VDC_NOT_NULL = CHECK + "090";
+    /** clichck091 - Enter Ward */
+    public static final String CHECK_WARD_NOT_NULL = CHECK + "091";
+    
+    
     // Application messages
     /**
      * cliapp001 - Select document to attach digital copy.
@@ -726,9 +732,15 @@ public class ClientMessage {
      */
     public static final String PARTY_NOT_FOUND = PARTY + "009";    
     /**
-     * cliparty010 - Invalid Parent For this Child, Parent is it self child
+     * cliparty010 - Selected parent/guardian shouldn't have parent itself.
      */
-    public static final String CHILD_PARTY_PARENT = PARTY + "010";
+    public static final String PARTY_PARENT_IS_CHILD = PARTY + "010";
+    /**
+     * cliparty011 - Parent/guardian should be different from the current person. 
+     */
+    public static final String PARTY_THE_SAME_AS_PARENT = PARTY + "011";
+    
+    
     // Source messages
     /**
      * clisource001 - This action will detach document from the transaction. Are
@@ -1098,6 +1110,11 @@ public class ClientMessage {
      * cliprgs037 - Opening document form...
      */
     public static final String PROGRESS_MSG_OPEN_SOURCE_FORM = PROGRESSMSG + "037";
+    /**
+     * cliprgs038 - Getting person...
+     */
+    public static final String PROGRESS_MSG_GETTING_PERSON = PROGRESSMSG + "038";
+    
     // Moth messages
     /**
      * climoth001 - Moth has been saved.
