@@ -1114,6 +1114,18 @@ public class ClientMessage {
      * cliprgs038 - Getting person...
      */
     public static final String PROGRESS_MSG_GETTING_PERSON = PROGRESSMSG + "038";
+    /* 
+     * cliprgs039 - Searching land ownership certificates...
+     */
+    public static final String PROGRESS_MSG_LOC_SEARCHING = PROGRESSMSG + "039";
+    /* 
+     * cliprgs040 - Getting land ownership certificate...
+     */
+    public static final String PROGRESS_MSG_GETTING_LOC = PROGRESSMSG + "040";
+    /**
+     * cliprgs041 - Opening land ownership certificate search form...
+     */
+    public static final String PROGRESS_MSG_OPEN_LOC_SEARCH = PROGRESSMSG + "041";
     
     // Moth messages
     /**
@@ -1161,6 +1173,11 @@ public class ClientMessage {
      * cliloc011 - LOC Removed.
      */
     public static final String LOC_REMOVED = LOC + "011";
+    /**
+     * cliloc012 - There is no approved ownership with LOC found.
+     */
+    public static final String LOC_APPROVED_RRR_WITH_LOC_NOT_FOUND = LOC + "012";
+    
     /**
      * climoth012 - MOTH removed.
      */
