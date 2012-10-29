@@ -1126,6 +1126,14 @@ public class ClientMessage {
      * cliprgs041 - Opening land ownership certificate search form...
      */
     public static final String PROGRESS_MSG_OPEN_LOC_SEARCH = PROGRESSMSG + "041";
+    /**
+     * cliprgs042 - Opening restrictions search form...
+     */
+    public static final String PROGRESS_MSG_OPEN_RESTRICTIONS_SEARCH = PROGRESSMSG + "042";
+    /**
+     * cliprgs043 - Searching restrictions...
+     */
+    public static final String PROGRESS_MSG_RESTRICTIONS_SEARCHING = PROGRESSMSG + "043";
     
     // Moth messages
     /**
