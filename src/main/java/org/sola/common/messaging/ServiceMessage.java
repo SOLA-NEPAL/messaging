@@ -115,6 +115,8 @@ public class ServiceMessage {
     public static final String EJB_APPLICATION_USER_DOESNT_BELONG_TO_DEPARTMENT = EJB_APPLICATION + "004";
     /** serejbapplication005 - Selected user doesn't belong to your office.*/
     public static final String EJB_APPLICATION_USER_DOESNT_BELONG_TO_OFFICE = EJB_APPLICATION + "005";
+    /** serejbapplication006 - Application modification is not allowed. */
+    public static final String EJB_APPLICATION_APPLICATION_MODIFICATION_NOT_ALLOWED = EJB_APPLICATION + "006";
     
 
     //SourceEJB Messages
