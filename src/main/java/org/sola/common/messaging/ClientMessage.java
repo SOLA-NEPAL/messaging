@@ -369,7 +369,8 @@ public class ClientMessage {
     public static final String CHECK_VDC_NOT_NULL = CHECK + "090";
     /** clichck091 - Enter Ward */
     public static final String CHECK_WARD_NOT_NULL = CHECK + "091";
-    
+    /** clichck092 - Current password shouldn't be empty. */
+    public static final String CHECK_NOTNULL_PASSWORD_CURRENT = CHECK + "092";
     
     // Application messages
     /**
@@ -739,7 +740,10 @@ public class ClientMessage {
      * cliparty011 - Parent/guardian should be different from the current person. 
      */
     public static final String PARTY_THE_SAME_AS_PARENT = PARTY + "011";
-    
+    /**
+     * cliparty012 - Select party type.
+     */
+    public static final String PARTY_SELECT_TYPE = PARTY + "012";
     
     // Source messages
     /**
@@ -962,6 +966,11 @@ public class ClientMessage {
      * cliadmin035 - Are you sure you want to remove \"{0}\" Fiscal Year?
      */
     public static final String ADMIN_CONFIRM_FISCAL_YEAR_REMOVAL = ADMIN + "035";
+    /**
+     * cliadmin036 - Password change has failed.\nPlease, check you correctly entered current password.
+     */
+    public static final String ADMIN_PASSWORD_CHANGE_FAILED = ADMIN + "036";
+    
     // Progress bar messages
     /**
      * cliprgs001 - Opening application form...
