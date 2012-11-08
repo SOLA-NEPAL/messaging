@@ -668,6 +668,11 @@ public class ClientMessage {
      * clibaunit017 - Property already has pending ownership right.
      */
     public static final String BAUNIT_ALREADY_HAS_PENDING_OWNERSHIP = BAUNIT + "017";
+    /**
+     * clibaunit018 - Selected parcel is already attached to another property object. Please, select another one.
+     */
+    public static final String BAUNIT_SELECTED_PARCEL_ALREADY_USED = BAUNIT + "018";
+    
     // General error messages
     /**
      * clierrs001 - Can't cerate a new file. {0}
