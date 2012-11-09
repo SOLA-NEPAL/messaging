@@ -975,6 +975,10 @@ public class ClientMessage {
      * cliadmin036 - Password change has failed.\nPlease, check you correctly entered current password.
      */
     public static final String ADMIN_PASSWORD_CHANGE_FAILED = ADMIN + "036";
+    /** 
+     * cliadmin037 - You can't create/modify objects, belonging to {0} VDC and {1} ward. 
+     */
+    public static final String ADMIN_VDC_ACCESS_DENIED = ADMIN + "037";
     
     // Progress bar messages
     /**

@@ -95,6 +95,8 @@ public class ServiceMessage {
     public static final String EXCEPTION_ENTITY_PACKAGE_VIOLATION = EXCEPTION + "007";
     /** serexcp008 - The object you are trying to create or change doesn't belong to your office. */
     public static final String EXCEPTION_OBJECT_OUT_OF_OFFICE = EXCEPTION + "008";
+    /** serexcp009 - You can't create/modify objects in the given VDC/Ward. */
+    public static final String EXCEPTION_VDC_ACCESS_DENIED = EXCEPTION + "009";
     
     // Business Rule Messages
     /** serrule001 - Business rule {0} does not exist.*/
