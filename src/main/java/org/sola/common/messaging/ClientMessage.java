@@ -373,6 +373,10 @@ public class ClientMessage {
      * clichck091 - Enter Ward
      */
     public static final String CHECK_WARD_NOT_NULL = CHECK + "091";
+    /**
+     * clichck092 - Current password shouldn't be empty.
+     */
+    public static final String CHECK_NOTNULL_PASSWORD_CURRENT = CHECK + "092";
     // Application messages
     /**
      * cliapp001 - Select document to attach digital copy.
@@ -669,6 +673,11 @@ public class ClientMessage {
      * clibaunit017 - Property already has pending ownership right.
      */
     public static final String BAUNIT_ALREADY_HAS_PENDING_OWNERSHIP = BAUNIT + "017";
+    /**
+     * clibaunit018 - Selected parcel is already attached to another property
+     * object. Please, select another one.
+     */
+    public static final String BAUNIT_SELECTED_PARCEL_ALREADY_USED = BAUNIT + "018";
     // General error messages
     /**
      * clierrs001 - Can't cerate a new file. {0}
@@ -742,6 +751,10 @@ public class ClientMessage {
      * person.
      */
     public static final String PARTY_THE_SAME_AS_PARENT = PARTY + "011";
+    /**
+     * cliparty012 - Select party type.
+     */
+    public static final String PARTY_SELECT_TYPE = PARTY + "012";
     // Source messages
     /**
      * clisource001 - This action will detach document from the transaction. Are
@@ -963,6 +976,16 @@ public class ClientMessage {
      * cliadmin035 - Are you sure you want to remove \"{0}\" Fiscal Year?
      */
     public static final String ADMIN_CONFIRM_FISCAL_YEAR_REMOVAL = ADMIN + "035";
+    /**
+     * cliadmin036 - Password change has failed.\nPlease, check you correctly
+     * entered current password.
+     */
+    public static final String ADMIN_PASSWORD_CHANGE_FAILED = ADMIN + "036";
+    /**
+     * cliadmin037 - You can't create/modify objects, belonging to {0} VDC and
+     * {1} ward.
+     */
+    public static final String ADMIN_VDC_ACCESS_DENIED = ADMIN + "037";
     // Progress bar messages
     /**
      * cliprgs001 - Opening application form...
