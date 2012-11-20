@@ -131,6 +131,10 @@ public class GisMessage {
     public static final String ADD_DIRECT_IMAGE_LOAD_IMAGE= GEOTOOLS + "46";
     public static final String PRINT_LAYOUT_GENERATION_ERROR = GEOTOOLS + "47";
     public static final String MAP_SCALE_ERROR = GEOTOOLS + "48";
+    /** gisgeotools549 - Parcel not found on the map. */
+    public static final String PARCEL_NOT_FOUND = GEOTOOLS + "49";
+    /** gisgeotools550 - Dataset is not defined on the parcel. */
+    public static final String PARCEL_DATASET_NOT_FOUND = GEOTOOLS + "50";
     
     //CADASTRE CHANGE
     /** The point has to fall on an current node or to a line*/
