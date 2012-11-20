@@ -365,13 +365,18 @@ public class ClientMessage {
      * clichck089 - Select Tenancy type.
      */
     public static final String CHECK_TENANCY_TYPE = CHECK + "089";
-    /** clichck090 - Select VDC */
+    /**
+     * clichck090 - Select VDC
+     */
     public static final String CHECK_VDC_NOT_NULL = CHECK + "090";
-    /** clichck091 - Enter Ward */
+    /**
+     * clichck091 - Enter Ward
+     */
     public static final String CHECK_WARD_NOT_NULL = CHECK + "091";
-    /** clichck092 - Current password shouldn't be empty. */
+    /**
+     * clichck092 - Current password shouldn't be empty.
+     */
     public static final String CHECK_NOTNULL_PASSWORD_CURRENT = CHECK + "092";
-    
     // Application messages
     /**
      * cliapp001 - Select document to attach digital copy.
@@ -669,10 +674,10 @@ public class ClientMessage {
      */
     public static final String BAUNIT_ALREADY_HAS_PENDING_OWNERSHIP = BAUNIT + "017";
     /**
-     * clibaunit018 - Selected parcel is already attached to another property object. Please, select another one.
+     * clibaunit018 - Selected parcel is already attached to another property
+     * object. Please, select another one.
      */
     public static final String BAUNIT_SELECTED_PARCEL_ALREADY_USED = BAUNIT + "018";
-    
     // General error messages
     /**
      * clierrs001 - Can't cerate a new file. {0}
@@ -736,20 +741,20 @@ public class ClientMessage {
     /**
      * cliparty009 - Person not found.
      */
-    public static final String PARTY_NOT_FOUND = PARTY + "009";    
+    public static final String PARTY_NOT_FOUND = PARTY + "009";
     /**
      * cliparty010 - Selected parent/guardian shouldn't have parent itself.
      */
     public static final String PARTY_PARENT_IS_CHILD = PARTY + "010";
     /**
-     * cliparty011 - Parent/guardian should be different from the current person. 
+     * cliparty011 - Parent/guardian should be different from the current
+     * person.
      */
     public static final String PARTY_THE_SAME_AS_PARENT = PARTY + "011";
     /**
      * cliparty012 - Select party type.
      */
     public static final String PARTY_SELECT_TYPE = PARTY + "012";
-    
     // Source messages
     /**
      * clisource001 - This action will detach document from the transaction. Are
@@ -972,14 +977,15 @@ public class ClientMessage {
      */
     public static final String ADMIN_CONFIRM_FISCAL_YEAR_REMOVAL = ADMIN + "035";
     /**
-     * cliadmin036 - Password change has failed.\nPlease, check you correctly entered current password.
+     * cliadmin036 - Password change has failed.\nPlease, check you correctly
+     * entered current password.
      */
     public static final String ADMIN_PASSWORD_CHANGE_FAILED = ADMIN + "036";
-    /** 
-     * cliadmin037 - You can't create/modify objects, belonging to {0} VDC and {1} ward. 
+    /**
+     * cliadmin037 - You can't create/modify objects, belonging to {0} VDC and
+     * {1} ward.
      */
     public static final String ADMIN_VDC_ACCESS_DENIED = ADMIN + "037";
-    
     // Progress bar messages
     /**
      * cliprgs001 - Opening application form...
@@ -1152,7 +1158,6 @@ public class ClientMessage {
      * cliprgs043 - Searching restrictions...
      */
     public static final String PROGRESS_MSG_RESTRICTIONS_SEARCHING = PROGRESSMSG + "043";
-    
     // Moth messages
     /**
      * climoth001 - Moth has been saved.
@@ -1203,11 +1208,26 @@ public class ClientMessage {
      * cliloc012 - There is no approved ownership with LOC found.
      */
     public static final String LOC_APPROVED_RRR_WITH_LOC_NOT_FOUND = LOC + "012";
-    
     /**
-     * climoth012 - MOTH removed.
+     * climoth013 - MOTH removed.
      */
-    public static final String MOTH_REMOVED = MOTH + "012";
+    public static final String MOTH_REMOVED = MOTH + "013";
+    /**
+     * climoth014 - INSUFFCIENT PARAMETER FOR MOTH SAVE.
+     */
+    public static final String MOTH_INSUFFCIENT_PARAMETER = MOTH + "014";
+    /**
+     * cliloc015 - Insufficient parameter for loc search
+     */
+    public static final String LOC_SEARCH_MESSAGE = LOC + "015";
+    /**
+     * cliloc016 - LOCs are moved to new moth
+     */
+    public static final String LOCS_MOVED_MESSAGE = LOC + "016";
+    /**
+     * cliloc017 - LOCs are moved failed
+     */
+    public static final String LOCS_MOVED_FAILED_MESSAGE = LOC + "017";
     /**
      * cliarea001 - area type square meter
      */
