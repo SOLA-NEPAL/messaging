@@ -135,6 +135,10 @@ public class GisMessage {
     public static final String PARCEL_NOT_FOUND = GEOTOOLS + "49";
     /** gisgeotools550 - Dataset is not defined on the parcel. */
     public static final String PARCEL_DATASET_NOT_FOUND = GEOTOOLS + "50";
+    /** gisgeotools551 - Dataset of selected parcel is different from the dataset on the map. Do you want to load it? */
+    public static final String PARCEL_DATASET_DIFFERENT_FROM_MAP = GEOTOOLS + "51";
+    /** gisgeotools552 - Parcel doesn't have spatial data. */
+    public static final String PARCEL_HAS_NO_SPATIAL_DATA = GEOTOOLS + "52";
     
     //CADASTRE CHANGE
     /** The point has to fall on an current node or to a line*/
