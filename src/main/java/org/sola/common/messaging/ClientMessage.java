@@ -382,6 +382,10 @@ public class ClientMessage {
      * clichck092 - Current password shouldn't be empty.
      */
     public static final String CHECK_NOTNULL_PASSWORD_CURRENT = CHECK + "092";
+    /**
+     * clichck093 - Id issue date should be later than birth date.
+     */
+    public static final String CHECK_BIRTH_DATE_ID_ISSUE_DATE = CHECK + "093";
     // Application messages
     /**
      * cliapp001 - Select document to attach digital copy.
@@ -1124,7 +1128,8 @@ public class ClientMessage {
      * cliprgs033 - Getting person...
      */
     public static final String PROGRESS_MSG_PERSON_GETTING = PROGRESSMSG + "033";
-    /* cliprgs034 - Searching parcels...
+    /*
+     * cliprgs034 - Searching parcels...
      */
     public static final String PROGRESS_MSG_PARCEL_SEARCHING = PROGRESSMSG + "034";
     /**
@@ -1143,11 +1148,11 @@ public class ClientMessage {
      * cliprgs038 - Getting person...
      */
     public static final String PROGRESS_MSG_GETTING_PERSON = PROGRESSMSG + "038";
-    /* 
+    /*
      * cliprgs039 - Searching land ownership certificates...
      */
     public static final String PROGRESS_MSG_LOC_SEARCHING = PROGRESSMSG + "039";
-    /* 
+    /*
      * cliprgs040 - Getting land ownership certificate...
      */
     public static final String PROGRESS_MSG_GETTING_LOC = PROGRESSMSG + "040";
