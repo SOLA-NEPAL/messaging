@@ -145,6 +145,11 @@ public class ClientMessage {
      * clignrl022 - Document
      */
     public static final String GENERAL_LABELS_DOCUMENT = GENERAL + "022";
+    /**
+     * clignrl023 - You have made some changes on the form. Do you want to save
+     * it before printing?
+     */
+    public static final String GENERAL_FORM_CHANGES_WARNING_FOR_PRINTING_DEMO = GENERAL + "023";
     // Service Messages
     /**
      * cliserv001 - Unable to initialize the {0} service. The reason is: {1}
