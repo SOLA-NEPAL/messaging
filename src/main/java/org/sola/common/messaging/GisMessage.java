@@ -139,6 +139,10 @@ public class GisMessage {
     public static final String PARCEL_DATASET_DIFFERENT_FROM_MAP = GEOTOOLS + "51";
     /** gisgeotools552 - Parcel doesn't have spatial data. */
     public static final String PARCEL_HAS_NO_SPATIAL_DATA = GEOTOOLS + "52";
+    /** gisgeotools553 - Are you sure you want to remove selected parcel? It will be also removed from the map. */
+    public static final String PARCEL_CONFIRM_REMOVAL = GEOTOOLS + "53";
+    /** gisgeotools554 - All parcels on the list must have the same dataset and dataset must be not empty. */
+    public static final String PARCEL_LIST_HAVE_THE_SAME_DATASET = GEOTOOLS + "54";
     
     //CADASTRE CHANGE
     /** The point has to fall on an current node or to a line*/

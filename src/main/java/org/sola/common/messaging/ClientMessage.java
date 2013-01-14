@@ -1276,4 +1276,8 @@ public class ClientMessage {
      * clicadstr002 - Enter parcel number.
      */
     public static final String CADASTRE_PARCEL_NUMBER_IS_NULL = CADASTRE + "002";
+    /**
+     * clicadstr003 - Fill in address information for parcel and assign parcel number.
+     */
+    public static final String CADASTRE_PARCEL_ADDRESS_IS_NULL = CADASTRE + "003";
 }
