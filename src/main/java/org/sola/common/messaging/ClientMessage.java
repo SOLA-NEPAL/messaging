@@ -327,7 +327,7 @@ public class ClientMessage {
      */
     public static final String CHECK_SELECT_SHARE_TYPE = CHECK + "078";
     /**
-     * clichck078 - Check Reference No
+     * clichck079 - Check Reference No
      */
     public static final String CHECK_NOTNULL_REFERENCELANR = CHECK + "079";
     /**
