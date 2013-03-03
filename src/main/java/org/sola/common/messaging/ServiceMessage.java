@@ -97,7 +97,8 @@ public class ServiceMessage {
     public static final String EXCEPTION_OBJECT_OUT_OF_OFFICE = EXCEPTION + "008";
     /** serexcp009 - You can't create/modify objects in the given VDC/Ward. */
     public static final String EXCEPTION_VDC_ACCESS_DENIED = EXCEPTION + "009";
-    
+    /** serexcp010 - Date provide is not valid. */
+    public static final String EXCEPTION_INVALID_NEPALI_DATE = EXCEPTION +"010";
     // Business Rule Messages
     /** serrule001 - Business rule {0} does not exist.*/
     public static final String RULE_NOT_FOUND = RULE + "001";
